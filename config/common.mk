@@ -221,6 +221,9 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 include vendor/lineage/config/version.mk
 
+# Bootanimation
+$(call inherit-product, vendor/aosp/config/bootanimation.mk)
+
 -include vendor/lineage-priv/keys/keys.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
