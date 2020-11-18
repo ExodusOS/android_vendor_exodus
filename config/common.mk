@@ -245,6 +245,9 @@ ifeq ($(LINEAGE_BUILDTYPE), UNOFFICIAL)
         LINEAGE_EXTRAVERSION := -$(TARGET_UNOFFICIAL_BUILD_ID)
     endif
 endif
+# Bootanimation
+$(call inherit-product, vendor/aosp/config/bootanimation.mk)
+
 
 ifeq ($(LINEAGE_BUILDTYPE), RELEASE)
     ifndef TARGET_VENDOR_RELEASE_BUILD_ID
