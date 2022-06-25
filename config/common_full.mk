@@ -11,7 +11,8 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     LineageLatoFont \
-    LineageRubikFont
+    LineageRubikFont \
+	ExodusOnePlusSansFont
 
 # Recorder
 PRODUCT_PACKAGES += \

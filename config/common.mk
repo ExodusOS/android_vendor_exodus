@@ -76,6 +76,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Include AOSP audio files
 include vendor/lineage/config/aosp_audio.mk
 
+# Include custom fonts files
+include vendor/lineage/config/custom_fonts.mk
+
 # Include Lineage audio files
 include vendor/lineage/config/lineage_audio.mk
 

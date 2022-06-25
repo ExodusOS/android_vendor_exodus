@@ -21,4 +21,34 @@
     </family>
     <alias name="rubik-medium" to="rubik" weight="500" />
     <alias name="rubik-bold" to="rubik" weight="700" />
+	
+	<!-- # OnePlusSans Edit Start -->
+    <family customizationType="new-named-family" name="oneplus-sans">
+        <font weight="100" style="normal">OnePlusSans-Thin.ttf</font>
+        <font weight="100" style="italic">OnePlusSans-ThinItalic.ttf</font>
+        <font weight="300" style="normal">OnePlusSans-Light.ttf</font>
+        <font weight="300" style="italic">OnePlusSans-LightItalic.ttf</font>
+        <font weight="400" style="normal">OnePlusSans-Regular.ttf</font>
+        <font weight="400" style="italic">OnePlusSans-Italic.ttf</font>
+        <font weight="500" style="normal">OnePlusSans-Medium.ttf</font>
+        <font weight="500" style="italic">OnePlusSans-MediumItalic.ttf</font>
+        <font weight="900" style="normal">OnePlusSans-Black.ttf</font>
+        <font weight="900" style="italic">OnePlusSans-BlackItalic.ttf</font>
+        <font weight="700" style="normal">OnePlusSans-Bold.ttf</font>
+        <font weight="700" style="italic">OnePlusSans-BoldItalic.ttf</font>
+     </family>
+	<!-- Note that aliases must come after the fonts they reference. -->
+	<alias name="oneplus-sans-thin" to="oneplus-sans" weight="100" />
+    <alias name="oneplus-sans-light" to="oneplus-sans" weight="300" />
+    <alias name="oneplus-sans-book" to="oneplus-sans" weight="400" />
+    <alias name="oneplus-sans-regular" to="oneplus-sans" weight="400" />
+    <alias name="oneplus-sans-medium" to="oneplus-sans" weight="500" />
+    <alias name="oneplus-sans-bold" to="oneplus-sans" weight="700" />
+    <alias name="oneplus-sans-black" to="oneplus-sans" weight="900" />
+    <alias name="arial" to="oneplus-sans" />
+    <alias name="helvetica" to="oneplus-sans" />
+    <alias name="tahoma" to="oneplus-sans" />
+    <alias name="verdana" to="oneplus-sans" />
+    <!-- # OnePlusSans Edit End -->
+	
 </fonts-modification>
