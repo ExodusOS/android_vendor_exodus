@@ -24,4 +24,13 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-MediumItalic.ttf \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Regular.ttf \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Thin.ttf \
-    vendor/lineage/prebuilt/common/fonts/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-ThinItalic.ttf
+    vendor/lineage/prebuilt/common/fonts/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-ThinItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Bold.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-BoldItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Italic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Light.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-LightItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Medium.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-MediumItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Regular.ttf
+	

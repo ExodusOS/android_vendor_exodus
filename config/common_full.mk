@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     fonts_customization.xml \
     LineageLatoFont \
     LineageRubikFont \
-	ExodusOnePlusSansFont
+	ExodusOnePlusSansFont \
+	ExodusUbuntuFont
 
 # Recorder
 PRODUCT_PACKAGES += \
