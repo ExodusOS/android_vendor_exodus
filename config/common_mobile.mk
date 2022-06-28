@@ -53,9 +53,13 @@ PRODUCT_PACKAGES += \
     LineagePurpleAccent \
     LineageRedAccent \
     LineageYellowAccent \
-	ExodusBlueAccent \
-	ExodusRedAccent
-
+    ExodusBlueAccent \
+    ExodusRedAccent \
+	ExodusUbuntuOrangeAccent \
+	ExodusCanonicalAubergineAccent \
+	ExodusLightAubergineAccent \
+	ExodusMidAubergineAccent
+	
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
