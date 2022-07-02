@@ -23,3 +23,8 @@ ADDITIONAL_BUILD_PROPERTIES += \
 # LineageOS Platform Internal Version
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+
+# ExodusOS System Version
+ADDITIONAL_BUILD_PROPERTIES += \
+    ro.exodus.version=$(PRODUCT_EXODUS_VERSION) \
+    ro.exodus.maintainer=$(EXODUS_MAINTAINER)	
