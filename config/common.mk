@@ -101,10 +101,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Bootanimation
-TARGET_SCREEN_WIDTH ?= 1080
-TARGET_SCREEN_HEIGHT ?= 1920
-PRODUCT_PACKAGES += \
-    bootanimation.zip
+$(call inherit-product, vendor/lineage/config/bootanimation.mk)
 
 # Lineage packages
 PRODUCT_PACKAGES += \
@@ -220,9 +217,6 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
 include vendor/lineage/config/version.mk
-
-# Bootanimation
-$(call inherit-product, vendor/aosp/config/bootanimation.mk)
 
 -include vendor/lineage-priv/keys/keys.mk
 
