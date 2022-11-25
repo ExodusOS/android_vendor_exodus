@@ -11,7 +11,9 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontLatoOverlay \
-    FontRubikOverlay
+    FontRubikOverlay \
+    FontOnePlusSansOverlay \
+    FontUbuntuOverlay
 
 # Recorder
 PRODUCT_PACKAGES += \
