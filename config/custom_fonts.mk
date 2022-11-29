@@ -13,6 +13,18 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Black.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Black.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-BlackItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-BlackItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Bold.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-BoldItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Italic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Light.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-LightItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Medium.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-MediumItalic.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Regular.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Thin.ttf \
+    vendor/lineage/prebuilt/common/fonts/Exo2-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-ThinItalic.ttf \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-Black.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Black.ttf \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-BlackItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-BlackItalic.ttf \
     vendor/lineage/prebuilt/common/fonts/OnePlusSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Bold.ttf \
