@@ -103,6 +103,25 @@ PRODUCT_PACKAGES += \
     IconPackOutlineSystemUIOverlay \
     IconPackAcherusAndroidOverlay \
     IconPackAcherusSystemUIOverlay
+    
+# Signal / WiFi Icons
+PRODUCT_PACKAGES += \
+	BarsSignalOverlay \
+	BarsWiFiOverlay \
+	InsideSignalOverlay \
+	InsideWiFiOverlay \
+	RoundSignalOverlay \
+	RoundWiFiOverlay \
+	SneakySignalOverlay \
+	SneakyWiFiOverlay \
+	StrokeSignalOverlay \
+	StrokeWiFiOverlay \
+	WavySignalOverlay \
+	WavyWiFiOverlay \
+	XperiaSignalOverlay \
+	XperiaWiFiOverlay \
+	ZigZagSignalOverlay \
+	ZigZagWiFiOverlay
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
