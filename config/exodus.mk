@@ -53,4 +53,5 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    RepainterServicePriv
+    RepainterServicePriv \
+    ExternalStorageProviderS
