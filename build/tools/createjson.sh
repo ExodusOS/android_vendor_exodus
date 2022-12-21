@@ -28,7 +28,7 @@ if [ -f $existingOTAjson ]; then
 	#get data from already existing device json
 	#there might be a better way to parse json yet here we try without adding more dependencies like jq
 	filename=$3
-	version=$(PRODUCT_EXODUS_VERSION)
+	version=$4
 	buildprop=$2/system/build.prop
 	linenr=`grep -n "ro.system.build.date.utc" $buildprop | cut -d':' -f1`
 	timestamp=`sed -n $linenr'p' < $buildprop | cut -d'=' -f2`
