@@ -44,9 +44,8 @@ for i in $(seq $changelog_days); do
     Until_Date=`date --date="$k days ago" +%m-%d-%Y`
 
     # Line with after --- until was too long for a small ListView
-    echo '====================' >> $Changelog
-    echo  "     "$Until_Date    >> $Changelog
-    echo '====================' >> $Changelog
+    echo '==================================' >> $Changelog
+    echo  $Until_Date    >> $Changelog
 
     # Cycle through all available repos
     for repo_path in $REPO_LIST; do
