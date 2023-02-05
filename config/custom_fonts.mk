@@ -44,5 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/fonts/Ubuntu-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-LightItalic.ttf \
     vendor/lineage/prebuilt/common/fonts/Ubuntu-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Medium.ttf \
     vendor/lineage/prebuilt/common/fonts/Ubuntu-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-MediumItalic.ttf \
-    vendor/lineage/prebuilt/common/fonts/Ubuntu-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Regular.ttf
+    vendor/lineage/prebuilt/common/fonts/Ubuntu-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu-Regular.ttf \
+    vendor/lineage/prebuilt/common/fonts/Rosemary-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rosemary-Regular.ttf
 	

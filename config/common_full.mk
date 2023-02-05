@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
     FontRubikOverlay \
     FontOnePlusSansOverlay \
     FontUbuntuOverlay \
-    FontExo2Overlay
+    FontExo2Overlay \
+    FontRosemaryOverlay
 
 # Recorder
 PRODUCT_PACKAGES += \
